@@ -16,43 +16,77 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/raftingsitelogo.jpg" alt="Site Logo" width="100">
-        <h1>Rafting Site</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-        <h2>Rafting in Ghana</h2>
+    <header>        
+        <div class="header-wrapper">
+            <div class="logo">
+                <img src="images/raftingsitelogo.jpg" alt="The Rapids Logo" width="200">
+                <h1>The Rapids</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact Us</a>
+                </ul>
+            </nav>
+        </div>
+       
     </header>
     <main>
-        <div>
-            <img src="images/hero_transparency_1024.png" alt="Fun world">
-            <h1>The Rapids</h1>
-            <article>
-                <img src="images/rafting15_600.jpg" alt="Peaceful rapids">
-                <p>Lorem ipsum dolor sit amet consectetur ...</p>
-            </article>
-        </div>
-        <section>
+        <section class="hero">
+            <div class="hero-content">
+              <h1 class="hero-title">White Water Rafting</h1>
+                <div class="inner-wrapper">
+                    <p class="hero-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
+                        mattis ac nibh. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed
+                        eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit
+                      </p>
+                      <img src="images/rafting15_600.jpg" alt="Peaceful rapids">
+                </div>
+            </div>
+          </section>
+        <section class="history-section"> 
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit
+            <div class="history-wrapper">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                <img src="images/hero_transparency_1024.png" alt="Rafting history">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit
                 amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+            </div>
         </section>
-        <section>
+        <section class="galery">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting27_1024.jpg" alt="Team building">
-            <img src="images/rafting47_600.jpg" alt="Adventure">
-            <img src="images/rafting64_600.jpg" alt="Competiveness">
-            <img src="images/rafting29_600.jpgg" alt="Escape world">
-            <img src="images/rafting12_1024.jpg" alt="Entertaining and thrilling">
+            <div class="img-grid">    
+                <figure>
+                    <img src="images/rafting27_1024.jpg" alt="Team building">
+                    <figcaption>Team building</figcaption>
+                </figure>
+                <figure>            
+                    <img src="images/rafting47_600.jpg" alt="Adventure">
+                    <figcaption>Adventure</figcaption>
+                </figure>
+                <figure>    
+                    <img src="images/rafting64_600.jpg" alt="Competiveness">
+                    <figcaption>Competiveness</figcaption>
+                </figure>
+                <figure>    
+                    <img src="images/rafting29_600.jpg" alt="Escape world">
+                    <figcaption>Escape World</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting12_1024.jpg" alt="Entertaining and thrilling">
+                    <figcaption>Rafting is a great way to bond with friends and family.</figcaption>
+                </figure>
+            </div>    
         </section>
     </main>
     <footer>
+        <div class="footer-wrapper">
         <p>&copy;2025 &#10070; The Rapids &#10070; Venerand Maclean Mawuli Afun</p>
-        <nav class="sociallinks">
+        <div class="socials">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook" width="30">
             </a>
@@ -62,7 +96,8 @@
             <a href="https://instagram.com">
                 <img src="images/instagram.jpeg" alt="Instagram" width="30">
             </a>
-        </nav>
+        </div>
+        </div>
     </footer>
 
 </body>
