@@ -63,8 +63,6 @@ a {
     height: auto;
 }
 
-
-
 .logo img {
     margin: 0 0.25rem 0 1rem;
     width: 64px;
@@ -132,7 +130,6 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     color: #000;
     font-size: 16px;
-
 }
 
 .hero-content {
@@ -191,8 +188,6 @@ article {
 .galery {
     text-align: center;
     padding: 20px;
-
-
 }
 
 .img-grid {
@@ -218,7 +213,6 @@ figcaption {
     text-align: center;
 }
 
-
 .section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -239,7 +233,6 @@ figcaption {
     background-color: var(--heading-background-color);
     align-items: center;
     gap: 25%;
-
 }
 
 .socials {
